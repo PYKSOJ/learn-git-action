@@ -24,4 +24,5 @@ jobs:
       - name: Testing Codes
         run: |
           python -m pip install nose2 coverage
+          cd project
           nose2 -v --with-coverage
